@@ -1,0 +1,20 @@
+.container, .pixel, .row, body {
+    display: flex;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: 20px;
+}
+
+.pixel {
+    padding: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
